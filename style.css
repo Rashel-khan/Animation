@@ -1,0 +1,30 @@
+.animation{
+    width: 95vw;
+    height: 600px;
+    border: 1px solid rgb(170, 104, 22);
+}
+
+.bat{
+    height: 75%;
+    transition: transform 0.4s ease-in;
+}
+
+.animation:hover .bat{
+    transform: rotate(-65deg);
+    transform-origin: top right;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    transition: transform 0.5s ease-out 0.4s;
+}
+
+.animation:hover .ball{
+    transform: translate(900px, -200px);
+}
